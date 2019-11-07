@@ -133,6 +133,22 @@ grid1 = [[0, 0, 0, 0, 0],
 
 grid2 = next_gen(grid1)
 print_grid(grid2)
+
 print()
+
 grid3 = next_gen(grid2)
 print_grid(grid3)
+
+print() 
+
+grid1 = [[0, 0, 0, 0],
+         [0, 1, 1, 0],
+         [0, 1, 1, 0],
+         [0, 0, 0, 0]]
+
+print_grid(grid1)
+print()
+
+grid2 = next_gen(grid1)
+
+print_grid(grid2)
